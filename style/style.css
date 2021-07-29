@@ -24,6 +24,17 @@ body{
     color: var(--secondary-text-color);
 }
 
+
+.castom-button{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 400;
+}
+.castom-button:hover{
+    color: white;
+    background-color: #af4025;
+}
+
 /* ========================
     header area
 ======================== */
@@ -37,15 +48,7 @@ body{
 .header-area p{
     color: #E0E0E0;
 } 
-.header-purchase-button{
-    background-color: var(--primary-color);
-    color: white;
-    font-weight: 400;
-}
-.header-purchase-button:hover{
-    color: white;
-    background-color: #af4025;
-}
+
 /* ========================
     header area end
 ======================== */
