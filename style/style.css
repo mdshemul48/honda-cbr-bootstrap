@@ -42,3 +42,17 @@ body{
 /* ========================
     header area end
 ======================== */
+
+/* ========================
+    featured bike area start
+======================== */
+.featured-bike-area p{
+    color: var(--primary-color);
+}
+
+.featured-bike-image{
+    filter: grayscale(100%);
+}
+/* ========================
+    featured bike area end
+======================== */
