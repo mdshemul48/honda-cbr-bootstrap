@@ -1,0 +1,25 @@
+/* ========================
+    header area
+======================== */
+
+.header-area{
+    background-color: #264653;
+}
+.header-main-heading{
+    font-size: 48px;
+}
+.header-area p{
+    color: #E0E0E0;
+} 
+.header-purchase-button{
+    background-color: #E76F51;
+    color: white;
+    font-weight: 400;
+}
+.header-purchase-button:hover{
+    color: white;
+    background-color: #af4025;
+}
+/* ========================
+    header area end
+======================== */
