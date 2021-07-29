@@ -1,4 +1,23 @@
 /* ========================
+    importing font and icons
+======================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;900&display=swap');
+
+
+/* ========================
+    body and utilities
+======================== */
+:root{
+    --primary-color:#E76F51;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ========================
     header area
 ======================== */
 
@@ -12,7 +31,7 @@
     color: #E0E0E0;
 } 
 .header-purchase-button{
-    background-color: #E76F51;
+    background-color: var(--primary-color);
     color: white;
     font-weight: 400;
 }
